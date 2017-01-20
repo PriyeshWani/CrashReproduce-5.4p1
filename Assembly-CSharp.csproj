@@ -71,31 +71,6 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
- <Reference Include="Common">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
- </Reference>
- <Reference Include="Editor">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
- </Reference>
- <Reference Include="Security">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
- </Reference>
- <Reference Include="Stores">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
- </Reference>
- <Reference Include="Apple">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
- </Reference>
- <Reference Include="Tizen">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
- </Reference>
- <Reference Include="winrt">
- <HintPath>/Users/priyesh/CrashReproduce-5.4p1/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A1F2A11B-435A-5F86-18C0-B716F9ABE1E9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
